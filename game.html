@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>俄罗斯方块</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.1.0.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="main">
+			<ul id="grid">
+				
+			</ul>
+			<div id="block">
+
+			</div>
+			<input type="button" value="Play" id="play">
+			<div id="paused">Paused</div>
+		</div>
+		<div id="info">
+			<div class="next">
+				<h2>next</h2>
+				<div class="nextShape" id="nextShape">
+					<!-- <div></div> -->
+				</div>
+			</div>
+			<div class="handle">
+				<h2>handle</h2>
+				<ul>
+					<li>↑&nbsp;turn</li>
+					<li>→&nbsp;right</li>
+					<li>←&nbsp;left</li>
+					<li>↓&nbsp;down</li>
+				</ul>
+			</div>
+			<div class="score" id="score">
+				<h2>score</h2>
+				<p>0</p>
+			</div>
+			<div class="pause">
+				<button id="pause">Pause</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/eluosi.js"></script>
+</body>
+</html>
